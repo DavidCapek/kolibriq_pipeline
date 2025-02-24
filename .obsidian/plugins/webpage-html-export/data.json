@@ -12,7 +12,8 @@
     "inlineHTML": false,
     "exportPath": "/home/klaxalk/mail/html/output",
     "filesToExport": [
-      "Pipeline.canvas"
+      "index.md",
+      "pipeline.canvas"
     ],
     "addBodyClasses": true,
     "addMathjaxStyles": true,

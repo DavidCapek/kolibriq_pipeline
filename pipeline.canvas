@@ -1,0 +1,674 @@
+{
+  "edges": [
+    {
+      "fromNode": "31f3ec1078ced0e3",
+      "fromSide": "right",
+      "id": "5940790dbc80da0a",
+      "toNode": "c288045422f76d44",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "7f3deed5208621b9",
+      "fromSide": "top",
+      "id": "3478e5af49844842",
+      "toNode": "101ebba4f2178572",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "04e05bd09d94f7a2",
+      "fromSide": "right",
+      "id": "ea98dddbf28eb801",
+      "toNode": "81e038aea3a7fa14",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "9492fcf62cfda5dd",
+      "fromSide": "right",
+      "id": "eafccbcd2f8cde9f",
+      "toNode": "101ebba4f2178572",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "101ebba4f2178572",
+      "fromSide": "right",
+      "id": "6a467e4c447d7941",
+      "label": "3D waypoints +\n+ flight corridor, no time",
+      "toNode": "31f3ec1078ced0e3",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "c288045422f76d44",
+      "fromSide": "right",
+      "id": "095792729625eb56",
+      "label": "Actuator commands\n/ Control group commands",
+      "toNode": "3b2e04f5a4ff055e",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "7297e608b352477f",
+      "fromSide": "right",
+      "id": "768085f587a39c3c",
+      "toNode": "7f3deed5208621b9",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "056b2cea98e03da2",
+      "fromSide": "right",
+      "id": "7ab0faf2ec551e4f",
+      "toNode": "3aed403149dd8a0c",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "056b2cea98e03da2",
+      "fromSide": "top",
+      "id": "1d42089de9b1886c",
+      "toNode": "7297e608b352477f",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "056b2cea98e03da2",
+      "fromSide": "right",
+      "id": "563493d97221382e",
+      "toNode": "7f3deed5208621b9",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "056b2cea98e03da2",
+      "fromSide": "right",
+      "id": "af6c024a05b7097a",
+      "toNode": "6f8ada1fa059b7ff",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "7f3deed5208621b9",
+      "fromSide": "right",
+      "id": "3c9ddff37297d4a0",
+      "toNode": "6f8ada1fa059b7ff",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "6f8ada1fa059b7ff",
+      "fromSide": "left",
+      "id": "7b667f1af7a5940b",
+      "toNode": "7f3deed5208621b9",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "3aed403149dd8a0c",
+      "fromSide": "right",
+      "id": "812e870f06a7a108",
+      "toNode": "38424bc56010be98",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "38424bc56010be98",
+      "fromSide": "right",
+      "id": "c42146a84adba43d",
+      "toNode": "6f8ada1fa059b7ff",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "f89129908eb256de",
+      "fromSide": "right",
+      "id": "7a7f299dafb9f943",
+      "toNode": "88fb211407e054d7",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "88fb211407e054d7",
+      "fromSide": "right",
+      "id": "665a7a62fa01d788",
+      "toNode": "5df9b50511217eb8",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "5eae04f55eb75685",
+      "fromSide": "right",
+      "id": "6e9eab13eaae5654",
+      "toNode": "f89129908eb256de",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "88a10d69a2e58b8b",
+      "fromSide": "left",
+      "id": "3dbc5c79f2be4822",
+      "toNode": "0c3a7fcdbb9761c7",
+      "toSide": "right"
+    }
+  ],
+  "nodes": [
+    {
+      "color": "#0008ff",
+      "height": 1232,
+      "id": "4c647342d6cf5a7b",
+      "label": "Simulator",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1200,
+      "x": 960,
+      "y": -83
+    },
+    {
+      "color": "#1100ff",
+      "height": 1100,
+      "id": "101ebba4f2178572",
+      "label": "Planning",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 668,
+      "x": -1350,
+      "y": -1112
+    },
+    {
+      "color": "4",
+      "height": 390,
+      "id": "056b2cea98e03da2",
+      "label": "Sensors",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1262,
+      "x": -2807,
+      "y": 850
+    },
+    {
+      "color": "#0011ff",
+      "height": 615,
+      "id": "7f3deed5208621b9",
+      "label": "Mapping",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 757,
+      "x": -1395,
+      "y": 225
+    },
+    {
+      "color": "#1100ff",
+      "height": 405,
+      "id": "88a10d69a2e58b8b",
+      "label": "Sensors",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1036,
+      "x": 1044,
+      "y": 689
+    },
+    {
+      "color": "#0011ff",
+      "height": 580,
+      "id": "6f8ada1fa059b7ff",
+      "label": "Localization",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 578,
+      "x": -320,
+      "y": 243
+    },
+    {
+      "color": "#3700ff",
+      "height": 560,
+      "id": "9492fcf62cfda5dd",
+      "label": "Mission definition",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 480,
+      "x": -1974,
+      "y": -842
+    },
+    {
+      "color": "#0008ff",
+      "height": 438,
+      "id": "1ad58ac46bad5aa4",
+      "label": "FCU - Pixhawk",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 564,
+      "x": 1458,
+      "y": -781
+    },
+    {
+      "color": "#2b00ff",
+      "height": 466,
+      "id": "38424bc56010be98",
+      "label": "State estimation",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 398,
+      "x": -78,
+      "y": 1127
+    },
+    {
+      "color": "4",
+      "height": 400,
+      "id": "7297e608b352477f",
+      "label": "Wind field prediction",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 430,
+      "x": -1975,
+      "y": 333
+    },
+    {
+      "color": "#1100ff",
+      "height": 480,
+      "id": "3aed403149dd8a0c",
+      "label": "Odometry",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 348,
+      "x": -560,
+      "y": 1120
+    },
+    {
+      "color": "1",
+      "height": 322,
+      "id": "31f3ec1078ced0e3",
+      "label": "Trajectory generation",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 460,
+      "x": -140,
+      "y": -723
+    },
+    {
+      "height": 312,
+      "id": "3b2e04f5a4ff055e",
+      "label": "Physical UAV",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 400,
+      "x": 1542,
+      "y": -708
+    },
+    {
+      "color": "1",
+      "height": 225,
+      "id": "c288045422f76d44",
+      "label": "Realtime feedback control",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 443,
+      "x": 460,
+      "y": -674
+    },
+    {
+      "color": "1",
+      "height": 115,
+      "id": "6b91772b386fe735",
+      "label": "DCE",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 429,
+      "x": -2605,
+      "y": 56
+    },
+    {
+      "color": "#0011ff",
+      "height": 104,
+      "id": "573540d72eb26570",
+      "label": "MRS",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 435,
+      "x": -2618,
+      "y": -203
+    },
+    {
+      "height": 161,
+      "id": "f89129908eb256de",
+      "label": "Trajectory generation",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 278,
+      "x": 1166,
+      "y": 362
+    },
+    {
+      "color": "4",
+      "height": 87,
+      "id": "da2f36e6a38c60fd",
+      "label": "VRAS",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 410,
+      "x": -2605,
+      "y": -449
+    },
+    {
+      "height": 161,
+      "id": "5df9b50511217eb8",
+      "label": "FCU + HW",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 220,
+      "x": 1808,
+      "y": 362
+    },
+    {
+      "height": 161,
+      "id": "88fb211407e054d7",
+      "label": "Control",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 207,
+      "x": 1533,
+      "y": 362
+    },
+    {
+      "height": 190,
+      "id": "0852bd7b6d9e928b",
+      "styleAttributes": {
+      },
+      "text": "* Motors\n* Servos\n* RC remote control",
+      "type": "text",
+      "width": 250,
+      "x": 1610,
+      "y": -630
+    },
+    {
+      "height": 158,
+      "id": "b4c51515060e0f48",
+      "styleAttributes": {
+      },
+      "text": "## Unreal-based Flightforge simulator\n* Winged UAV dynamics masked over multirotor dynamics\n* Simulated LiDAR, camera, stereo camera\n",
+      "type": "text",
+      "width": 526,
+      "x": 1045,
+      "y": 48
+    },
+    {
+      "height": 82,
+      "id": "a5156a7c18369bad",
+      "styleAttributes": {
+      },
+      "text": "# LIDAR",
+      "type": "text",
+      "width": 250,
+      "x": -2745,
+      "y": 920
+    },
+    {
+      "height": 60,
+      "id": "98aa4a00d2c48524",
+      "styleAttributes": {
+      },
+      "text": "# GPS/RTK",
+      "type": "text",
+      "width": 250,
+      "x": -2745,
+      "y": 1100
+    },
+    {
+      "height": 82,
+      "id": "dca20c3fc356275e",
+      "styleAttributes": {
+      },
+      "text": "# STEREO CAMERAS",
+      "type": "text",
+      "width": 320,
+      "x": -2425,
+      "y": 920
+    },
+    {
+      "height": 60,
+      "id": "778c04cafe831207",
+      "styleAttributes": {
+      },
+      "text": "# Pitot tubes",
+      "type": "text",
+      "width": 250,
+      "x": -2425,
+      "y": 1100
+    },
+    {
+      "height": 82,
+      "id": "d62759fe6b4c7b99",
+      "styleAttributes": {
+      },
+      "text": "# IMU\n",
+      "type": "text",
+      "width": 203,
+      "x": -2025,
+      "y": 920
+    },
+    {
+      "height": 85,
+      "id": "a95e54b616d788c8",
+      "styleAttributes": {
+      },
+      "text": "# STEREO CAMERAS",
+      "type": "text",
+      "width": 320,
+      "x": 1426,
+      "y": 762
+    },
+    {
+      "height": 85,
+      "id": "0b10f43a2ac646a9",
+      "styleAttributes": {
+      },
+      "text": "# IMU\n",
+      "type": "text",
+      "width": 203,
+      "x": 1826,
+      "y": 762
+    },
+    {
+      "height": 85,
+      "id": "32d675e01dbf741f",
+      "styleAttributes": {
+      },
+      "text": "# LIDAR",
+      "type": "text",
+      "width": 250,
+      "x": 1106,
+      "y": 762
+    },
+    {
+      "height": 62,
+      "id": "a7ae185f0dd5f839",
+      "styleAttributes": {
+      },
+      "text": "# GPS/RTK",
+      "type": "text",
+      "width": 250,
+      "x": 1106,
+      "y": 949
+    },
+    {
+      "height": 62,
+      "id": "1d23fe76f927e4d9",
+      "styleAttributes": {
+      },
+      "text": "# DOWNWARD  CAMERA",
+      "type": "text",
+      "width": 406,
+      "x": 1426,
+      "y": 949
+    },
+    {
+      "height": 150,
+      "id": "5146bb61420b4e58",
+      "styleAttributes": {
+      },
+      "text": "* Trajectory tracking\n* Feedforward control",
+      "type": "text",
+      "width": 391,
+      "x": 482,
+      "y": -630
+    },
+    {
+      "height": 371,
+      "id": "dd92cd36fee43039",
+      "styleAttributes": {
+      },
+      "text": "# Global localization\n\n-  A SLAM system that will integrate the state estimation\n- Use landmarks loop closures and other external localization sources\n- Lower rates than the odometry\n- ",
+      "type": "text",
+      "width": 435,
+      "x": -257,
+      "y": 323
+    },
+    {
+      "height": 340,
+      "id": "6bb12fa551e770f3",
+      "styleAttributes": {
+      },
+      "text": "# VIO\n\n- openVINS ++\n\n# Optical flow\n\n- Test what is available",
+      "type": "text",
+      "width": 250,
+      "x": -520,
+      "y": 1160
+    },
+    {
+      "height": 360,
+      "id": "c3287b75c1e998ef",
+      "styleAttributes": {
+      },
+      "text": "- 100 Hz\n- System dynamics\n- KF",
+      "type": "text",
+      "width": 304,
+      "x": -45,
+      "y": 1182
+    },
+    {
+      "height": 180,
+      "id": "c7ab386c2b5d014e",
+      "styleAttributes": {
+      },
+      "text": "# NMPC\n\n-  Intakes the wind field and outputs a short trajectory\n\n",
+      "type": "text",
+      "width": 380,
+      "x": -100,
+      "y": -661
+    },
+    {
+      "height": 150,
+      "id": "4b54eb48bffa34ff",
+      "styleAttributes": {
+      },
+      "text": "# Inputs\n\n- Bonxai map PC/VDB\n- ",
+      "type": "text",
+      "width": 370,
+      "x": -1945,
+      "y": 383
+    },
+    {
+      "height": 60,
+      "id": "5eae04f55eb75685",
+      "styleAttributes": {
+      },
+      "text": "Simulator's input: PATH",
+      "type": "text",
+      "width": 250,
+      "x": 600,
+      "y": 408
+    },
+    {
+      "height": 60,
+      "id": "0c3a7fcdbb9761c7",
+      "styleAttributes": {
+      },
+      "text": "Simulator's output",
+      "type": "text",
+      "width": 250,
+      "x": 600,
+      "y": 847
+    },
+    {
+      "height": 253,
+      "id": "ce39e4783fc410cf",
+      "styleAttributes": {
+      },
+      "text": "# Depth estimation\n\n- Use the stereo cameras to create a pointcloud\n-  Use LiDAR as GT\n",
+      "type": "text",
+      "width": 250,
+      "x": -1358,
+      "y": 280
+    },
+    {
+      "height": 305,
+      "id": "233edbfaf7625f3f",
+      "styleAttributes": {
+      },
+      "text": "# Map Building\n\n- Use the Bonxai mapping\n- Adapting the TOMSNAV mapper to work aboard the wing",
+      "type": "text",
+      "width": 296,
+      "x": -978,
+      "y": 280
+    },
+    {
+      "height": 60,
+      "id": "aa13fefd974b2bf6",
+      "styleAttributes": {
+      },
+      "text": "# DOWNWARD  CAMERA",
+      "type": "text",
+      "width": 406,
+      "x": -2025,
+      "y": 1100
+    },
+    {
+      "height": 280,
+      "id": "7f16a6a5942d0195",
+      "styleAttributes": {
+      },
+      "text": "# Smart planning\n\n-  Based on the mission parameters plan  accordingly\n-  If we have the coordinate a \"classical\" planning can be used\n-  We can use some map source to do large scale planning\n-  If an object is passed as a target the TOMSNAV system will be used\n",
+      "type": "text",
+      "width": 568,
+      "x": -1308,
+      "y": -1012
+    },
+    {
+      "height": 420,
+      "id": "6600f3d09c1b730d",
+      "styleAttributes": {
+      },
+      "text": "# Command and control\n\n- giving the high level commands to the wing\n- Gives a distant goal in coordinates/objects/etc\n- Monitors the state of the wing to the operators ",
+      "type": "text",
+      "width": 340,
+      "x": -1914,
+      "y": -802
+    },
+    {
+      "height": 413,
+      "id": "04e05bd09d94f7a2",
+      "styleAttributes": {
+      },
+      "text": "# Waypoint generation\n\n- Get the Bonxai map and use an A* with constraints given by Dubins trajectories\n- Will use ESDF\n\n",
+      "type": "text",
+      "width": 250,
+      "x": -1308,
+      "y": -545
+    },
+    {
+      "height": 413,
+      "id": "81e038aea3a7fa14",
+      "styleAttributes": {
+      },
+      "text": "# Trajectory checking\n\n- Check the trajectories from the A* and the constraints using Dubins and see if they are noncoliding",
+      "type": "text",
+      "width": 250,
+      "x": -990,
+      "y": -545
+    }
+  ]
+}
