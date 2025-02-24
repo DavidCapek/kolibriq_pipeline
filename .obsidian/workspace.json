@@ -11,10 +11,14 @@
             "id": "5a21cc300508e327",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "index"
             }
           }
         ]
@@ -165,12 +169,12 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "5a21cc300508e327",
+  "active": "1dd497fb3d45d625",
   "lastOpenFiles": [
-    "Pipeline.canvas",
     "pipeline.canvas",
-    "index.md~",
     "index.md",
+    "index.md~",
+    "Pipeline.canvas",
     "export.sh~",
     "export.sh",
     "main_canvas.canvas",
