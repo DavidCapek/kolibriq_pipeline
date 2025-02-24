@@ -1,0 +1,226 @@
+{
+  "settingsVersion": "1.8.1-2b",
+  "exportOptions": {
+    "createDocumentContainer": true,
+    "keepModHeaderFooter": false,
+    "addPageIcon": true,
+    "unifyTitleFormat": true,
+    "createPusherElement": true,
+    "makeHeadersTrees": true,
+    "postProcess": true,
+    "displayProgress": false,
+    "inlineHTML": false,
+    "exportPath": "/home/klaxalk/mail/html/output",
+    "filesToExport": [
+      "Pipeline.canvas"
+    ],
+    "addBodyClasses": true,
+    "addMathjaxStyles": true,
+    "addHeadTag": true,
+    "backlinkOptions": {
+      "featureId": "backlinks",
+      "enabled": true,
+      "unavailable": false,
+      "alwaysEnabled": true,
+      "displayTitle": "Backlinks",
+      "featurePlacement": {
+        "selector": ".footer",
+        "type": "start"
+      }
+    },
+    "tagOptions": {
+      "featureId": "tags",
+      "enabled": true,
+      "unavailable": false,
+      "alwaysEnabled": false,
+      "displayTitle": "",
+      "featurePlacement": {
+        "selector": ".header .data-bar",
+        "type": "end"
+      },
+      "showInlineTags": {
+        "show": true,
+        "description": "Show tags that are inline in the document"
+      },
+      "showFrontmatterTags": {
+        "show": true,
+        "description": "Show tags that are in the frontmatter"
+      }
+    },
+    "aliasOptions": {
+      "featureId": "aliases",
+      "enabled": true,
+      "unavailable": false,
+      "alwaysEnabled": false,
+      "displayTitle": "",
+      "featurePlacement": {
+        "selector": ".header .data-bar",
+        "type": "start"
+      }
+    },
+    "propertiesOptions": {
+      "featureId": "properties",
+      "enabled": true,
+      "unavailable": false,
+      "alwaysEnabled": false,
+      "displayTitle": "Properties",
+      "featurePlacement": {
+        "selector": ".header",
+        "type": "start"
+      }
+    },
+    "fileNavigationOptions": {
+      "featureId": "file-navigation",
+      "enabled": true,
+      "unavailable": false,
+      "alwaysEnabled": false,
+      "displayTitle": "",
+      "featurePlacement": {
+        "selector": "#left-sidebar-content",
+        "type": "end"
+      },
+      "showCustomIcons": false,
+      "showDefaultFolderIcons": false,
+      "showDefaultFileIcons": false,
+      "defaultFolderIcon": "lucide//folder",
+      "defaultFileIcon": "lucide//file",
+      "defaultMediaIcon": "lucide//file-image",
+      "exposeStartingPath": true,
+      "includePath": "site-lib/html/file-tree.html"
+    },
+    "searchOptions": {
+      "featureId": "search",
+      "enabled": false,
+      "unavailable": true,
+      "alwaysEnabled": false,
+      "displayTitle": "Search...",
+      "featurePlacement": {
+        "selector": "#left-sidebar .topbar-content",
+        "type": "start"
+      }
+    },
+    "outlineOptions": {
+      "featureId": "outline",
+      "enabled": true,
+      "unavailable": false,
+      "alwaysEnabled": false,
+      "displayTitle": "Outline",
+      "featurePlacement": {
+        "selector": "#right-sidebar-content",
+        "type": "end"
+      },
+      "startCollapsed": true,
+      "minCollapseDepth": 0
+    },
+    "themeToggleOptions": {
+      "featureId": "theme-toggle",
+      "enabled": true,
+      "unavailable": false,
+      "alwaysEnabled": false,
+      "displayTitle": "",
+      "featurePlacement": {
+        "selector": "#right-sidebar .topbar-content",
+        "type": "start"
+      }
+    },
+    "graphViewOptions": {
+      "featureId": "graph-view",
+      "enabled": false,
+      "unavailable": false,
+      "alwaysEnabled": false,
+      "displayTitle": "Graph View",
+      "featurePlacement": {
+        "selector": "#right-sidebar-content",
+        "type": "start"
+      },
+      "showOrphanNodes": true,
+      "showAttachments": false,
+      "allowGlobalGraph": true,
+      "allowExpand": true,
+      "attractionForce": 1,
+      "linkLength": 15,
+      "repulsionForce": 80,
+      "centralForce": 2,
+      "edgePruning": 100,
+      "minNodeRadius": 3,
+      "maxNodeRadius": 7
+    },
+    "sidebarOptions": {
+      "featureId": "sidebar",
+      "enabled": true,
+      "unavailable": false,
+      "alwaysEnabled": false,
+      "allowResizing": true,
+      "allowCollapsing": true,
+      "rightDefaultWidth": "20em",
+      "leftDefaultWidth": "20em"
+    },
+    "customHeadOptions": {
+      "featureId": "custom-head",
+      "enabled": true,
+      "unavailable": false,
+      "alwaysEnabled": false,
+      "displayTitle": "",
+      "featurePlacement": {
+        "selector": "head",
+        "type": "start"
+      },
+      "sourcePath": "",
+      "includePath": "site-lib/html/custom-head.html"
+    },
+    "documentOptions": {
+      "featureId": "obsidian-document",
+      "enabled": true,
+      "unavailable": false,
+      "alwaysEnabled": true,
+      "allowFoldingLists": true,
+      "allowFoldingHeadings": true,
+      "documentWidth": "40em"
+    },
+    "rssOptions": {
+      "featureId": "obsidian-document",
+      "enabled": false,
+      "unavailable": true,
+      "alwaysEnabled": false,
+      "siteUrl": "",
+      "siteName": "MRS ROS2 Knowledgebase",
+      "authorName": ""
+    },
+    "relativeHeaderLinks": false,
+    "includeJS": true,
+    "includeCSS": true,
+    "inlineMedia": false,
+    "inlineCSS": false,
+    "inlineJS": false,
+    "inlineFonts": false,
+    "inlineOther": false,
+    "combineAsSingleFile": false,
+    "offlineResources": false,
+    "themeName": "",
+    "slugifyPaths": true,
+    "flattenExportPaths": false,
+    "fixLinks": true,
+    "faviconPath": "",
+    "iconEmojiStyle": "Native",
+    "exportRoot": "",
+    "includePluginCss": [],
+    "includeStyleCssIds": [],
+    "autoDisposeWebpages": true
+  },
+  "logLevel": "warning",
+  "titleProperty": "title",
+  "rssDateProperty": "date",
+  "onlyExportModified": false,
+  "deleteOldFiles": true,
+  "exportPreset": "online",
+  "openAfterExport": false,
+  "filePickerBlacklist": [
+    "(^|\\/)node_modules\\/",
+    "(^|\\/)dist\\/",
+    "(^|\\/)dist-ssr\\/",
+    "(^|\\/)\\.vscode\\/"
+  ],
+  "filePickerWhitelist": [
+    "\\.\\w+$"
+  ]
+}

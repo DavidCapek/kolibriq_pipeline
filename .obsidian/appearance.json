@@ -1,0 +1,7 @@
+{
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "snippets"
+  ],
+  "baseFontSizeAction": false
+}
