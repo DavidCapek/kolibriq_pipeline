@@ -11,17 +11,38 @@
             "id": "5a21cc300508e327",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "index.md",
-                "mode": "source",
-                "source": false
+                "file": "pipeline.canvas",
+                "viewState": {
+                  "x": -323.5,
+                  "y": 244,
+                  "zoom": -1.956230936549876
+                }
               },
-              "icon": "lucide-file",
-              "title": "index"
+              "icon": "lucide-layout-dashboard",
+              "title": "pipeline"
+            }
+          },
+          {
+            "id": "6bb5271ea2ef8c5b",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "pipeline.canvas",
+                "viewState": {
+                  "x": -1267.4010854785254,
+                  "y": 334.25306857725616,
+                  "zoom": -1.6835598920497337
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "pipeline"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -169,7 +190,7 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "1dd497fb3d45d625",
+  "active": "6bb5271ea2ef8c5b",
   "lastOpenFiles": [
     "pipeline.canvas",
     "index.md",

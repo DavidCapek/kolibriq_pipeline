@@ -374,15 +374,26 @@
       "y": 362
     },
     {
-      "height": 280,
-      "id": "7f16a6a5942d0195",
+      "height": 371,
+      "id": "dd92cd36fee43039",
       "styleAttributes": {
       },
-      "text": "# Smart planning\n\n-  Based on the mission parameters plan  accordingly\n-  If we have the coordinate a \"classical\" planning can be used\n-  We can use some map source to do large scale planning\n-  If an object is passed as a target the TOMSNAV system will be used\n",
+      "text": "# Global localization\n\n-  A SLAM system that will integrate the state estimation\n- Use landmarks loop closures and other external localization sources\n- Lower rates than the odometry\n- ",
       "type": "text",
-      "width": 568,
-      "x": -1308,
-      "y": -1012
+      "width": 435,
+      "x": -257,
+      "y": 323
+    },
+    {
+      "height": 150,
+      "id": "4b54eb48bffa34ff",
+      "styleAttributes": {
+      },
+      "text": "# Inputs\n\n- Bonxai map PC/VDB\n- ",
+      "type": "text",
+      "width": 370,
+      "x": -1945,
+      "y": 383
     },
     {
       "height": 420,
@@ -394,39 +405,6 @@
       "width": 340,
       "x": -1914,
       "y": -802
-    },
-    {
-      "height": 413,
-      "id": "04e05bd09d94f7a2",
-      "styleAttributes": {
-      },
-      "text": "# Waypoint generation\n\n- Get the Bonxai map and use an A* with constraints given by Dubins trajectories\n- Will use ESDF\n\n",
-      "type": "text",
-      "width": 250,
-      "x": -1308,
-      "y": -545
-    },
-    {
-      "height": 413,
-      "id": "81e038aea3a7fa14",
-      "styleAttributes": {
-      },
-      "text": "# Trajectory checking\n\n- Check the trajectories from the A* and the constraints using Dubins and see if they are noncoliding",
-      "type": "text",
-      "width": 250,
-      "x": -990,
-      "y": -545
-    },
-    {
-      "height": 371,
-      "id": "dd92cd36fee43039",
-      "styleAttributes": {
-      },
-      "text": "# Global localization\n\n-  A SLAM system that will integrate the state estimation\n- Use landmarks loop closures and other external localization sources\n- Lower rates than the odometry\n- ",
-      "type": "text",
-      "width": 435,
-      "x": -257,
-      "y": 323
     },
     {
       "height": 340,
@@ -473,6 +451,83 @@
       "y": -630
     },
     {
+      "height": 150,
+      "id": "5146bb61420b4e58",
+      "styleAttributes": {
+      },
+      "text": "* Trajectory tracking\n* Feedforward control",
+      "type": "text",
+      "width": 391,
+      "x": 482,
+      "y": -630
+    },
+    {
+      "height": 280,
+      "id": "7f16a6a5942d0195",
+      "styleAttributes": {
+      },
+      "text": "# Smart planning\n\n-  Based on the mission parameters plan  accordingly\n-  If we have the coordinate a \"classical\" planning can be used\n-  We can use some map source to do large scale planning\n-  If an object is passed as a target the TOMSNAV system will be used\n",
+      "type": "text",
+      "width": 568,
+      "x": -1308,
+      "y": -1012
+    },
+    {
+      "height": 413,
+      "id": "04e05bd09d94f7a2",
+      "styleAttributes": {
+      },
+      "text": "# Waypoint generation\n\n- Get the Bonxai map and use an A* with constraints given by Dubins trajectories\n- Will use ESDF\n\n",
+      "type": "text",
+      "width": 250,
+      "x": -1308,
+      "y": -545
+    },
+    {
+      "height": 413,
+      "id": "81e038aea3a7fa14",
+      "styleAttributes": {
+      },
+      "text": "# Trajectory checking\n\n- Check the trajectories from the A* and the constraints using Dubins and see if they are noncoliding",
+      "type": "text",
+      "width": 250,
+      "x": -990,
+      "y": -545
+    },
+    {
+      "height": 60,
+      "id": "5eae04f55eb75685",
+      "styleAttributes": {
+      },
+      "text": "Simulator's input: PATH",
+      "type": "text",
+      "width": 250,
+      "x": 600,
+      "y": 408
+    },
+    {
+      "height": 253,
+      "id": "ce39e4783fc410cf",
+      "styleAttributes": {
+      },
+      "text": "# Depth estimation\n\n- Use the stereo cameras to create a pointcloud\n-  Use LiDAR as GT\n",
+      "type": "text",
+      "width": 250,
+      "x": -1358,
+      "y": 280
+    },
+    {
+      "height": 305,
+      "id": "233edbfaf7625f3f",
+      "styleAttributes": {
+      },
+      "text": "# Map Building\n\n- Use the Bonxai mapping\n- Adapting the TOMSNAV mapper to work aboard the wing",
+      "type": "text",
+      "width": 296,
+      "x": -978,
+      "y": 280
+    },
+    {
       "height": 158,
       "id": "b4c51515060e0f48",
       "styleAttributes": {
@@ -482,6 +537,17 @@
       "width": 526,
       "x": 1045,
       "y": 48
+    },
+    {
+      "height": 85,
+      "id": "0b10f43a2ac646a9",
+      "styleAttributes": {
+      },
+      "text": "# IMU\n",
+      "type": "text",
+      "width": 203,
+      "x": 1826,
+      "y": 762
     },
     {
       "height": 85,
@@ -517,15 +583,26 @@
       "y": 949
     },
     {
-      "height": 150,
-      "id": "5146bb61420b4e58",
+      "height": 85,
+      "id": "a95e54b616d788c8",
       "styleAttributes": {
       },
-      "text": "* Trajectory tracking\n* Feedforward control",
+      "text": "# STEREO CAMERAS",
       "type": "text",
-      "width": 391,
-      "x": 482,
-      "y": -630
+      "width": 320,
+      "x": 1426,
+      "y": 762
+    },
+    {
+      "height": 60,
+      "id": "0c3a7fcdbb9761c7",
+      "styleAttributes": {
+      },
+      "text": "Simulator's output",
+      "type": "text",
+      "width": 250,
+      "x": 600,
+      "y": 847
     },
     {
       "height": 82,
@@ -583,28 +660,6 @@
       "y": 920
     },
     {
-      "height": 85,
-      "id": "a95e54b616d788c8",
-      "styleAttributes": {
-      },
-      "text": "# STEREO CAMERAS",
-      "type": "text",
-      "width": 320,
-      "x": 1426,
-      "y": 762
-    },
-    {
-      "height": 85,
-      "id": "0b10f43a2ac646a9",
-      "styleAttributes": {
-      },
-      "text": "# IMU\n",
-      "type": "text",
-      "width": 203,
-      "x": 1826,
-      "y": 762
-    },
-    {
       "height": 60,
       "id": "aa13fefd974b2bf6",
       "styleAttributes": {
@@ -614,61 +669,6 @@
       "width": 406,
       "x": -2025,
       "y": 1100
-    },
-    {
-      "height": 150,
-      "id": "4b54eb48bffa34ff",
-      "styleAttributes": {
-      },
-      "text": "# Inputs\n\n- Bonxai map PC/VDB\n- ",
-      "type": "text",
-      "width": 370,
-      "x": -1945,
-      "y": 383
-    },
-    {
-      "height": 60,
-      "id": "5eae04f55eb75685",
-      "styleAttributes": {
-      },
-      "text": "Simulator's input: PATH",
-      "type": "text",
-      "width": 250,
-      "x": 600,
-      "y": 408
-    },
-    {
-      "height": 60,
-      "id": "0c3a7fcdbb9761c7",
-      "styleAttributes": {
-      },
-      "text": "Simulator's output",
-      "type": "text",
-      "width": 250,
-      "x": 600,
-      "y": 847
-    },
-    {
-      "height": 253,
-      "id": "ce39e4783fc410cf",
-      "styleAttributes": {
-      },
-      "text": "# Depth estimation\n\n- Use the stereo cameras to create a pointcloud\n-  Use LiDAR as GT\n",
-      "type": "text",
-      "width": 250,
-      "x": -1358,
-      "y": 280
-    },
-    {
-      "height": 305,
-      "id": "233edbfaf7625f3f",
-      "styleAttributes": {
-      },
-      "text": "# Map Building\n\n- Use the Bonxai mapping\n- Adapting the TOMSNAV mapper to work aboard the wing",
-      "type": "text",
-      "width": 296,
-      "x": -978,
-      "y": 280
     }
   ]
 }
