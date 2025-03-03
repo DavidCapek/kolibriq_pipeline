@@ -4,45 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "8ba7f23822038711",
+        "id": "bb1755253c6b197d",
         "type": "tabs",
         "children": [
           {
-            "id": "5a21cc300508e327",
+            "id": "f7ef3b7027cc01a1",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "pipeline.canvas",
                 "viewState": {
-                  "x": -323.5,
-                  "y": 244,
-                  "zoom": -1.956230936549876
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "pipeline"
-            }
-          },
-          {
-            "id": "6bb5271ea2ef8c5b",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "pipeline.canvas",
-                "viewState": {
-                  "x": -1267.4010854785254,
-                  "y": 334.25306857725616,
-                  "zoom": -1.6835598920497337
+                  "x": -132.67299558381632,
+                  "y": 129.2387020629177,
+                  "zoom": -1.8777551667619576
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "pipeline"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.49999618530273
+    "width": 206.5
   },
   "right": {
     "id": "d605f05cc0a271b4",
@@ -190,10 +172,13 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "6bb5271ea2ef8c5b",
+  "active": "f7ef3b7027cc01a1",
   "lastOpenFiles": [
+    "fig/unreal.jpg",
+    "fig",
     "pipeline.canvas",
     "index.md",
+    "3rd_person_2.jpg",
     "index.md~",
     "Pipeline.canvas",
     "export.sh~",
